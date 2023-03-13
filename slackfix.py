@@ -42,10 +42,10 @@ License:
 """
 # vim:set et ts=8 sw=4:
 
-__version__ = '0.1'
+__version__ = '0.1.1'
 __author__ = 'Hans-Peter Jansen <hpj@urpla.net>'
 __license__ = 'GNU GPL v2 - see http://www.gnu.org/licenses/gpl2.txt for details'
-__homepage__ = 'https://github.com/frispete/kde-open5-slackfix'
+__homepage__ = 'https://github.com/frispete/slackfix'
 
 
 import os
