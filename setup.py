@@ -79,6 +79,9 @@ setup_params = dict(
         'Programming Language :: Python :: 3.9',
         'Programming Language :: Python :: 3.10',
     ],
+    data_files = [
+        ('share/applications', ['slackfix.desktop']),
+    ],
     entry_points = {
         'console_scripts': [
             '{} = {}:main'.format(pkgname, pkgfile),
