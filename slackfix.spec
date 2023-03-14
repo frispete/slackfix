@@ -17,9 +17,9 @@
 
 
 Name:           slackfix
-Version:        0.1
+Version:        0.1.2
 Release:        0
-Summary:        Slackfix Wrapper Script
+Summary:        Wrapper script to fix Slack flaw
 License:        GPL-2.0-only
 Group:          Productivity/Networking/Other
 URL:            https://github.com/frispete/%{name}
@@ -46,6 +46,7 @@ python3 setup.py install --prefix=%{_prefix} --root=%{buildroot}
 %license LICENSE
 %doc README.md
 %{_bindir}/%{name}
+%{_datadir}/applications/%{name}.desktop
 %{python3_sitelib}/{,__pycache__/}%{name}*
 
 %changelog
