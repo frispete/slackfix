@@ -1,4 +1,5 @@
-march.egg-info/
+*.egg-info/
 dist/
 tmp/
+.*
 *~
