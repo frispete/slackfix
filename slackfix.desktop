@@ -1,0 +1,16 @@
+[Desktop Entry]
+Categories=GNOME;GTK;Network;InstantMessaging;
+Comment=Fix Slack Desktop glitch
+Exec=/usr/bin/slackfix -v
+GenericName=Wrapper for Slack Client
+Icon=/usr/share/pixmaps/slack.png
+MimeType=
+Name=Slackfix
+Path=
+StartupNotify=true
+StartupWMClass=Slack
+Terminal=false
+TerminalOptions=
+Type=Application
+X-KDE-SubstituteUID=false
+X-KDE-Username=
