@@ -17,7 +17,7 @@
 
 
 Name:           slackfix
-Version:        0.1.2
+Version:        0.1.3
 Release:        0
 Summary:        Wrapper script to fix Slack flaw
 License:        GPL-2.0-only

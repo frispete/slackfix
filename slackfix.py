@@ -42,7 +42,7 @@ License:
 """
 # vim:set et ts=8 sw=4:
 
-__version__ = '0.1.2'
+__version__ = '0.1.3'
 __author__ = 'Hans-Peter Jansen <hpj@urpla.net>'
 __license__ = 'GNU GPL v2 - see http://www.gnu.org/licenses/gpl2.txt for details'
 __homepage__ = 'https://github.com/frispete/slackfix'
@@ -159,7 +159,7 @@ def run():
     with subprocess.Popen(args,
                           stdout=subprocess.PIPE,
                           stderr=subprocess.STDOUT,
-                          text = True) as p:
+                          universal_newlines = True) as p:
         for line in p.stdout:
             if line.endswith('\n'):
                 line = line[:-1]
