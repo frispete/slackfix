@@ -23,8 +23,8 @@ Summary:        Wrapper script to fix Slack flaw
 License:        GPL-2.0-only
 Group:          Productivity/Networking/Other
 URL:            https://github.com/frispete/%{name}
-Source:         %{name}-%{version}.tar.gz
-BuildRequires:  python3-setuptools
+Source:         %{URL}/archive/refs/tags/v%{version}.tar.gz
+BuildRequires:  python3-devel python3-setuptools
 BuildRequires:  systemd-rpm-macros
 BuildArch:      noarch
 
